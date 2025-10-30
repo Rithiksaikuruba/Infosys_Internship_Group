@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "framer-motion": "^12.23.22",
+    "qrcode.react": "^4.2.0",
+    "uuid": "^13.0.0"
+  }
+}

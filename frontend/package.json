@@ -1,0 +1,61 @@
+{
+  "name": "skill-matcher-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "React frontend for Resume Skill Matcher",
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "axios": "^1.6.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.24",
+    "http-proxy-middleware": "^3.0.5",
+    "lucide-react": "^0.546.0",
+    "prop-types": "^15.8.1",
+    "qrcode": "^1.5.4",
+    "qrcode.react": "^3.1.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-icons": "^5.5.0",
+    "react-parallax-tilt": "^1.7.311",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^11.0.5",
+    "recharts": "^2.8.0",
+    "tailwind-merge": "^3.3.1",
+    "uuid": "^9.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  },
+  "proxy": "http://localhost:8000"
+}
